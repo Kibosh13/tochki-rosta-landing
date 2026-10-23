@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Точки роста: Digital Meetup — 26 ноября 2026, Москва | DIGITALI × Hybrid</title>
+  <meta name="description" content="Очный digital-митап от DIGITALI и Hybrid: как находить новые точки роста в performance и digital-рекламе на реальных кейсах бизнеса. 26 ноября 2026, 15:00–20:00, Москва.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Точки роста: Digital Meetup">
+  <meta property="og:description" content="Как находить новые возможности для роста в performance и digital-рекламе — на реальных кейсах бизнеса. 26 ноября 2026, Москва.">
+  <meta property="og:locale" content="ru_RU">
+  <meta name="theme-color" content="#0B0F19">
+  <link rel="icon" href="assets/digitali-mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="header" id="top">
+  <div class="container header__inner">
+    <a href="#top" class="header__logos" aria-label="DIGITALI × Hybrid">
+      <img src="assets/digitali-logo-white.svg" alt="DIGITALI" class="logo-digitali" width="140" height="36">
+      <span class="logos__x" aria-hidden="true">×</span>
+      <!-- TODO: заменить на <img src="assets/hybrid-logo-white.svg" alt="Hybrid"> когда пришлют логотип -->
+      <span class="logo-hybrid">Hybrid</span>
+    </a>
+    <nav class="nav" aria-label="Навигация по странице">
+      <a href="#about">О митапе</a>
+      <a href="#audience">Для кого</a>
+      <a href="#program">Программа</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a href="#register" class="btn btn--primary btn--sm header__cta">Зарегистрироваться</a>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ BLOCK 1 · HERO ============ -->
+<section class="hero">
+  <div class="hero__grid" aria-hidden="true"></div>
+  <div class="container hero__inner">
+    <div class="hero__content">
+      <p class="eyebrow eyebrow--light"><span class="pulse"></span>Очный digital-митап с нетворкингом</p>
+      <h1 class="hero__title">Точки роста:<br><span>Digital Meetup</span></h1>
+      <p class="hero__lead">Как находить новые возможности для роста в performance и digital-рекламе — на реальных кейсах бизнеса.</p>
+
+      <ul class="hero__meta">
+        <li>
+          <svg class="i" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="16" rx="3"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4"/></svg>
+          <div><strong>26 ноября 2026</strong><span>четверг</span></div>
+        </li>
+        <li>
+          <svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          <div><strong>15:00–20:00</strong><span>5 часов контента и общения</span></div>
+        </li>
+        <li>
+          <svg class="i" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+          <div><strong>г. Москва</strong><span>адрес — в письме-подтверждении</span></div>
+        </li>
+      </ul>
+
+      <div class="hero__actions">
+        <a href="#register" class="btn btn--primary btn--lg">Зарегистрироваться
+          <svg class="i i--sm" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="#program" class="btn btn--ghost btn--lg">Смотреть программу</a>
+      </div>
+      <p class="hero__note">Участие бесплатное · количество мест ограничено</p>
+    </div>
+
+    <!-- Декоративная композиция «точки роста» -->
+    <div class="hero__art" aria-hidden="true">
+      <div class="art">
+        <div class="art__d"></div>
+        <div class="art__drop"></div>
+        <svg class="art__chart" viewBox="0 0 300 200" preserveAspectRatio="none">
+          <polyline points="10,180 70,150 120,160 170,110 220,90 290,20" />
+        </svg>
+        <span class="art__dot" style="--x:3%;--y:90%"></span>
+        <span class="art__dot" style="--x:23%;--y:75%"></span>
+        <span class="art__dot" style="--x:40%;--y:80%"></span>
+        <span class="art__dot" style="--x:57%;--y:55%"></span>
+        <span class="art__dot" style="--x:73%;--y:45%"></span>
+        <span class="art__dot art__dot--big" style="--x:97%;--y:10%"></span>
+        <div class="art__chip art__chip--1"><b>−CPO</b><span>стоимость заказа</span></div>
+        <div class="art__chip art__chip--2"><b>ДРР ↓</b><span>доля рекламных расходов</span></div>
+        <div class="art__chip art__chip--3"><b>+ рост</b><span>продаж</span></div>
+      </div>
+      <div class="countdown" id="countdown">
+        <span class="countdown__label">До митапа</span>
+        <div class="countdown__row">
+          <div><b data-cd="d">00</b><span>дней</span></div>
+          <div><b data-cd="h">00</b><span>часов</span></div>
+          <div><b data-cd="m">00</b><span>минут</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BLOCK 2 · ABOUT ============ -->
+<section class="section" id="about">
+  <div class="container about">
+    <div class="about__intro">
+      <p class="eyebrow">01 · О мероприятии</p>
+      <h2 class="h2">О мероприятии</h2>
+      <p class="about__text">Digital-маркетинг становится дороже и&nbsp;сложнее. Рекламные каналы перегреты, стоимость привлечения растёт, привычные инструменты перестают давать прежний рост, а&nbsp;просто увеличить бюджет зачастую уже недостаточно.</p>
+      <p class="about__text about__text--accent">На встрече поговорим о&nbsp;том, где сегодня искать дополнительные точки роста:</p>
+    </div>
+    <ol class="topics">
+      <li><span class="topics__num">01</span><p>Как эффективнее работать с&nbsp;performance-рекламой</p></li>
+      <li><span class="topics__num">02</span><p>Как запускать и&nbsp;быстрее проверять новые рекламные гипотезы</p></li>
+      <li><span class="topics__num">03</span><p>Как работать с&nbsp;товарным ассортиментом и&nbsp;фидами в&nbsp;e-commerce</p></li>
+      <li><span class="topics__num">04</span><p>Что действительно влияет на&nbsp;CPO, ДРР и&nbsp;продажи</p></li>
+      <li><span class="topics__num">05</span><p>Как устроена работа агентства и&nbsp;клиента изнутри</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ BLOCK 3 · AUDIENCE ============ -->
+<section class="section section--soft" id="audience">
+  <div class="container">
+    <div class="section__head">
+      <p class="eyebrow">02 · Аудитория</p>
+      <h2 class="h2">Для кого этот meetup</h2>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <div class="card__icon">
+          <svg class="i" viewBox="0 0 24 24"><path d="M3 20V10M9 20V4M15 20v-7M21 20V8"/></svg>
+        </div>
+        <h3>Руководители маркетинга и&nbsp;digital-направлений</h3>
+        <p>Для тех, кто отвечает за&nbsp;результат рекламных каналов, бюджеты и&nbsp;развитие digital-маркетинга.</p>
+      </article>
+      <article class="card">
+        <div class="card__icon">
+          <svg class="i" viewBox="0 0 24 24"><path d="M3 4h2.5l2.3 11.2a1.5 1.5 0 0 0 1.5 1.2h8.4a1.5 1.5 0 0 0 1.5-1.1L21 8H6.3"/><circle cx="9.5" cy="20" r="1.3"/><circle cx="17.5" cy="20" r="1.3"/></svg>
+        </div>
+        <h3>E-commerce и&nbsp;интернет-магазины</h3>
+        <p>Для компаний с&nbsp;большим ассортиментом, товарной рекламой и&nbsp;задачами по&nbsp;росту онлайн-продаж.</p>
+      </article>
+      <article class="card">
+        <div class="card__icon">
+          <svg class="i" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M8.5 7V5.5A1.5 1.5 0 0 1 10 4h4a1.5 1.5 0 0 1 1.5 1.5V7M3 12.5h18"/></svg>
+        </div>
+        <h3>Собственники и&nbsp;руководители бизнеса</h3>
+        <p>Для тех, кто хочет понимать, за&nbsp;счёт чего можно масштабировать привлечение клиентов, а&nbsp;не&nbsp;просто увеличивать рекламный бюджет.</p>
+      </article>
+      <article class="card">
+        <div class="card__icon">
+          <svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/></svg>
+        </div>
+        <h3>Performance- и&nbsp;brand-команды</h3>
+        <p>Для специалистов, которые ищут новые инструменты, каналы и&nbsp;гипотезы для роста.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BLOCK 4 · BENEFITS ============ -->
+<section class="section section--dark" id="benefits">
+  <div class="container">
+    <div class="section__head">
+      <p class="eyebrow eyebrow--light">03 · Польза</p>
+      <h2 class="h2">Что получат гости</h2>
+    </div>
+    <div class="bento">
+      <div class="bento__item bento__item--wide">
+        <div class="bento__icon"><svg class="i" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1.1 2h5c.1-.8.5-1.5 1.1-2A6 6 0 0 0 12 3Z"/></svg></div>
+        <h3>Новые идеи для своего маркетинга</h3>
+        <p>Сравните подходы со&nbsp;своими процессами и&nbsp;найдите идеи для тестирования.</p>
+      </div>
+      <div class="bento__item">
+        <div class="bento__icon"><svg class="i" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5Z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></svg></div>
+        <h3>Практические кейсы вместо теории</h3>
+        <p>Конкретные инструменты, механики и&nbsp;задачи бизнеса.</p>
+      </div>
+      <div class="bento__item">
+        <div class="bento__icon"><svg class="i" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.9A8 8 0 1 1 21 12Z"/><path d="M8.5 11h.01M12 11h.01M15.5 11h.01"/></svg></div>
+        <h3>Возможность обсудить свой проект</h3>
+        <p>Прямое общение с&nbsp;экспертами DIGITALI и&nbsp;Hybrid.</p>
+      </div>
+      <div class="bento__item">
+        <div class="bento__icon"><svg class="i" viewBox="0 0 24 24"><path d="M12 3 3 7.5l9 4.5 9-4.5L12 3Z"/><path d="m3 12 9 4.5 9-4.5M3 16.5 12 21l9-4.5"/></svg></div>
+        <h3>Взгляд на&nbsp;маркетинг с&nbsp;разных сторон</h3>
+        <p>Performance, SEO, programmatic и&nbsp;клиентский опыт в&nbsp;рамках одной встречи.</p>
+      </div>
+      <div class="bento__item bento__item--accent">
+        <div class="bento__icon"><svg class="i" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17" cy="9" r="2.5"/><path d="M17 14.5a5 5 0 0 1 4.5 5"/></svg></div>
+        <h3>Новые профессиональные знакомства</h3>
+        <p>Маркетологи, руководители e-commerce, агентства и&nbsp;бизнес в&nbsp;одном пространстве.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BLOCK 5 · PROGRAM ============ -->
+<section class="section" id="program">
+  <div class="container">
+    <div class="section__head section__head--row">
+      <div>
+        <p class="eyebrow">04 · Программа</p>
+        <h2 class="h2">Программа мероприятия</h2>
+      </div>
+      <p class="section__aside">26 ноября 2026 · 15:00–20:00<br>4 кейса, стратегическое выступление и&nbsp;нетворкинг</p>
+    </div>
+
+    <ol class="timeline">
+      <li class="tl tl--service">
+        <time class="tl__time">15:00 – 16:00</time>
+        <span class="tl__node"><svg class="i i--sm" viewBox="0 0 24 24"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4M10 17l5-5-5-5M15 12H3"/></svg></span>
+        <div class="tl__body"><h3>Welcome, сбор гостей</h3></div>
+      </li>
+      <li class="tl tl--service">
+        <time class="tl__time">16:00 – 16:15</time>
+        <span class="tl__node"><svg class="i i--sm" viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v1a7 7 0 0 1-14 0v-1M12 18v4M8 22h8"/></svg></span>
+        <div class="tl__body"><h3>Открытие. Приветственное слово</h3></div>
+      </li>
+      <li class="tl">
+        <time class="tl__time">16:20 – 16:40</time>
+        <span class="tl__node"><svg class="i i--sm" viewBox="0 0 24 24"><path d="m12 3 1.9 5.8H20l-4.9 3.6 1.9 5.8-5-3.6-5 3.6 1.9-5.8L4 8.8h6.1L12 3Z"/></svg></span>
+        <div class="tl__body">
+          <span class="tag">Кейс</span>
+          <h3>Кейс «Нияма»: Магия брендформанса</h3>
+          <p>Как креатив усиливает бренд, не&nbsp;теряя в&nbsp;эффективности</p>
+          <div class="speakers"><span>Алексей Антипов</span><span>Варвара Февралева</span></div>
+        </div>
+      </li>
+      <li class="tl tl--break">
+        <time class="tl__time">16:45 – 17:00</time>
+        <span class="tl__node"><svg class="i i--sm" viewBox="0 0 24 24"><path d="M4 9h13v5a6 6 0 0 1-6 6h-1a6 6 0 0 1-6-6V9ZM17 10h1.5a2.5 2.5 0 0 1 0 5H17M8 2.5v3M12 2.5v3"/></svg></span>
+        <div class="tl__body"><h3>Кофе-брейк</h3></div>
+      </li>
+      <li class="tl">
+        <time class="tl__time">17:00 – 17:20</time>
+        <span class="tl__node"><svg class="i i--sm" viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8M15 7h6v6"/></svg></span>
+        <div class="tl__body">
+          <span class="tag">Кейс DIGITALI</span>
+          <h3>Performance без границ: решения Digitali</h3>
+          <p>Масштабирование охватных кампаний для Hobby Games</p>
+          <div class="speakers"><span>Александр Чекрыгин</span></div>
+        </div>
+      </li>
+      <li class="tl">
+        <time class="tl__time">17:25 – 17:45</time>
+        <span class="tl__node"><svg class="i i--sm" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5 5-2Z"/></svg></span>
+        <div class="tl__body">
+          <span class="tag">Стратегия</span>
+          <h3>Взгляд изнутри: стратегическое выступление Hybrid</h3>
+          <p>Главные тренды сезона</p>
+          <div class="speakers"><span>Команда Hybrid</span></div>
+        </div>
+      </li>
+      <li class="tl">
+        <time class="tl__time">17:50 – 18:10</time>
+        <span class="tl__node"><svg class="i i--sm" viewBox="0 0 24 24"><path d="M12 2 6 10h3l-4 6h5v6h4v-6h5l-4-6h3l-6-8Z"/></svg></span>
+        <div class="tl__body">
+          <span class="tag">Кейс</span>
+          <h3>Кейс «Лесоруб»: Лиды в&nbsp;сезонной нише</h3>
+          <p>Как закрыть план и&nbsp;удержать ДРР ниже 10%</p>
+          <div class="speakers"><span>Алена Колпакова</span></div>
+        </div>
+      </li>
+      <li class="tl">
+        <time class="tl__time">18:15 – 18:40</time>
+        <span class="tl__node"><svg class="i i--sm" viewBox="0 0 24 24"><path d="M3 4h2.5l2.3 11.2a1.5 1.5 0 0 0 1.5 1.2h8.4a1.5 1.5 0 0 0 1.5-1.1L21 8H6.3"/><circle cx="9.5" cy="20" r="1.3"/><circle cx="17.5" cy="20" r="1.3"/></svg></span>
+        <div class="tl__body">
+          <span class="tag">E-commerce</span>
+          <h3>УТП и&nbsp;точки роста в&nbsp;e-commerce</h3>
+          <p>Performance за&nbsp;пределами рекламного кабинета</p>
+          <div class="speakers"><span>Кирилл Спиридонов</span><span>Алена Ермакова</span></div>
+        </div>
+      </li>
+      <li class="tl tl--party">
+        <time class="tl__time">18:40 – 20:00</time>
+        <span class="tl__node"><svg class="i i--sm" viewBox="0 0 24 24"><path d="M8 22h8M12 15v7M5 3h14l-7 12L5 3ZM7.5 7.5h9"/></svg></span>
+        <div class="tl__body">
+          <h3>Afterparty &amp; Networking</h3>
+          <p>Неформальное общение</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ BLOCK 6 · REGISTRATION ============ -->
+<section class="section section--blue" id="register">
+  <div class="container reg">
+    <div class="reg__info">
+      <p class="eyebrow eyebrow--light">05 · Регистрация</p>
+      <h2 class="h2">Регистрация на&nbsp;мероприятие</h2>
+      <p class="reg__lead">Количество мест ограничено. Зарегистрируйтесь, чтобы гарантировать участие.</p>
+      <ul class="reg__facts">
+        <li><svg class="i i--sm" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="16" rx="3"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4"/></svg>26 ноября 2026, 15:00–20:00</li>
+        <li><svg class="i i--sm" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>г. Москва</li>
+        <li><svg class="i i--sm" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.5 6.5 8.5 6 8.5-6"/></svg>Подтверждение и&nbsp;детали придут на&nbsp;email</li>
+      </ul>
+    </div>
+
+    <form class="form" id="regForm" novalidate>
+      <div class="form__grid">
+        <div class="field">
+          <label for="f-name">Имя <i>*</i></label>
+          <input id="f-name" name="first_name" type="text" autocomplete="given-name" required maxlength="60">
+          <span class="field__err">Укажите имя</span>
+        </div>
+        <div class="field">
+          <label for="f-surname">Фамилия <i>*</i></label>
+          <input id="f-surname" name="last_name" type="text" autocomplete="family-name" required maxlength="60">
+          <span class="field__err">Укажите фамилию</span>
+        </div>
+        <div class="field">
+          <label for="f-email">Email <i>*</i></label>
+          <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" required maxlength="120" placeholder="name@company.ru">
+          <span class="field__err">Проверьте формат email</span>
+        </div>
+        <div class="field">
+          <label for="f-phone">Телефон <i>*</i></label>
+          <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required placeholder="+7 (___) ___-__-__">
+          <span class="field__err">Введите номер полностью</span>
+        </div>
+        <div class="field">
+          <label for="f-company">Компания</label>
+          <input id="f-company" name="company" type="text" autocomplete="organization" maxlength="120">
+        </div>
+        <div class="field">
+          <label for="f-position">Должность</label>
+          <input id="f-position" name="position" type="text" autocomplete="organization-title" maxlength="120">
+        </div>
+        <div class="field field--full">
+          <label for="f-sphere">Сфера бизнеса</label>
+          <div class="select">
+            <select id="f-sphere" name="sphere">
+              <option value="" selected>Выберите сферу</option>
+              <option>E-commerce</option>
+              <option>Услуги</option>
+              <option>B2B</option>
+              <option>Производство</option>
+              <option>Другое</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- honeypot от ботов -->
+      <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <label class="check field" for="f-agree">
+        <input id="f-agree" name="agree" type="checkbox" required>
+        <span class="check__box" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span>
+        <span class="check__text">Согласен(на) на&nbsp;обработку персональных данных в&nbsp;соответствии с&nbsp;<a href="privacy.html" target="_blank" rel="noopener">политикой конфиденциальности</a> <i>*</i></span>
+      </label>
+      <span class="field__err field__err--check" id="agreeErr">Необходимо согласие на обработку данных</span>
+
+      <button type="submit" class="btn btn--primary btn--lg btn--block" id="submitBtn">
+        <span class="btn__label">Зарегистрироваться</span>
+        <span class="btn__spinner" aria-hidden="true"></span>
+      </button>
+      <p class="form__status" id="formStatus" role="alert"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ BLOCK 8 · CONTACTS ============ -->
+<section class="section" id="contacts">
+  <div class="container contacts">
+    <div>
+      <p class="eyebrow">06 · Контакты</p>
+      <h2 class="h2">Контакты и&nbsp;локация</h2>
+      <p class="contacts__lead">Остались вопросы о&nbsp;митапе или хотите стать партнёром? Напишите или позвоните — ответим.</p>
+    </div>
+    <div class="contacts__list">
+      <a class="contact" href="mailto:welcome@digitali.ru">
+        <span class="contact__icon"><svg class="i" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.5 6.5 8.5 6 8.5-6"/></svg></span>
+        <span><small>Email</small>welcome@digitali.ru</span>
+      </a>
+      <a class="contact" href="tel:+74991106017">
+        <span class="contact__icon"><svg class="i" viewBox="0 0 24 24"><path d="M5 3h3.5l1.8 4.5-2.3 1.4a11 11 0 0 0 7.1 7.1l1.4-2.3L21 15.5V19a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2Z"/></svg></span>
+        <span><small>Телефон</small>+7 (499) 110-60-17</span>
+      </a>
+      <a class="contact" href="https://digitali.ru/" target="_blank" rel="noopener">
+        <span class="contact__icon"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3Z"/></svg></span>
+        <span><small>Сайт</small>www.digitali.ru</span>
+      </a>
+      <div class="contact contact--static">
+        <span class="contact__icon"><svg class="i" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>
+        <span><small>Локация</small>г. Москва — точный адрес площадки придёт в&nbsp;письме</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__logos">
+      <img src="assets/digitali-logo-white.svg" alt="DIGITALI" width="124" height="32">
+      <span class="logos__x">×</span>
+      <span class="logo-hybrid">Hybrid</span>
+    </div>
+    <p class="footer__roles">DIGITALI (ООО «Диджитал Ай») — генеральный партнёр · Hybrid — соорганизатор</p>
+    <p class="footer__copy">© 2026 «Точки роста: Digital Meetup» · <a href="privacy.html" target="_blank" rel="noopener">Политика конфиденциальности</a></p>
+  </div>
+</footer>
+
+<!-- ============ SUCCESS MODAL ============ -->
+<div class="modal" id="successModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+  <div class="modal__backdrop" data-close></div>
+  <div class="modal__card">
+    <button class="modal__close" type="button" aria-label="Закрыть" data-close>
+      <svg class="i i--sm" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+    <div class="modal__icon"><svg viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></div>
+    <h3 id="modalTitle">Спасибо за&nbsp;регистрацию!</h3>
+    <p>Мы отправили письмо-подтверждение с&nbsp;деталями мероприятия на&nbsp;<b id="modalEmail">ваш email</b>. Если письма нет — проверьте папку «Спам».</p>
+    <div class="modal__event">
+      <span>26 ноября 2026 · 15:00–20:00</span>
+      <span>г. Москва</span>
+    </div>
+    <div class="modal__actions">
+      <button type="button" class="btn btn--primary" id="addCalendar">
+        <svg class="i i--sm" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="16" rx="3"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4M12 13v5M9.5 15.5h5"/></svg>
+        Добавить в&nbsp;календарь
+      </button>
+      <button type="button" class="btn btn--outline" data-close>Готово</button>
+    </div>
+  </div>
+</div>
+
+<script src="assets/main.js" defer></script>
+</body>
+</html>
