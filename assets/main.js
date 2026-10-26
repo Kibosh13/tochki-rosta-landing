@@ -361,7 +361,7 @@
       'DTEND:' + stamp(CONFIG.eventEnd),
       'SUMMARY:Точки роста: Digital Meetup',
       'DESCRIPTION:Как находить новые возможности для роста в performance и digital-рекламе — на реальных кейсах бизнеса. DIGITALI × Hybrid.',
-      'LOCATION:Москва',
+      'LOCATION:Москва\\, Усачёва ул.\\, 11Б (офис Hybrid)',
       'URL:' + location.origin + location.pathname,
       'END:VEVENT', 'END:VCALENDAR'
     ].join('\r\n');
