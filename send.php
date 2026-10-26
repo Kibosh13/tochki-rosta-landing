@@ -17,7 +17,8 @@ $CONFIG = [
     'from_name'   => 'DIGITALI × Hybrid — Точки роста',
     'event_title' => 'Точки роста: Digital Meetup',
     'event_date'  => '26 ноября 2026, 15:00–20:00',
-    'event_place' => 'г. Москва',                       // TODO: указать точный адрес площадки
+    'event_place' => 'г. Москва, Усачёва ул., 11Б (офис Hybrid)',
+    'event_metro' => 'Спортивная, Фрунзенская, Лужники',
     'site_url'    => 'https://digitali.ru/',
     'csv_dir'     => __DIR__ . '/registrations',
 ];
@@ -57,7 +58,7 @@ $data = [
     'agree'      => field('agree', 2),
 ];
 
-$allowedSpheres = ['', 'E-commerce', 'Услуги', 'B2B', 'Производство', 'Другое'];
+$allowedSpheres = ['', 'E-commerce', 'Услуги', 'B2B', 'Производство', 'Рекламное агентство', 'Другое'];
 $phoneDigits = preg_replace('/\D/', '', $data['phone']);
 
 if ($data['first_name'] === '' || $data['last_name'] === '') respond(false, 'Укажите имя и фамилию', 422);
@@ -118,6 +119,7 @@ $userBody = '<p style="margin:0 0 16px">Здравствуйте, ' . $h($data['
     . '<table cellpadding="0" cellspacing="0" style="width:100%;background:#EEF5FF;border-radius:14px;margin:0 0 20px"><tr><td style="padding:18px 20px">'
     . '<div style="margin-bottom:6px"><b>Дата и время:</b> ' . $h($CONFIG['event_date']) . '</div>'
     . '<div style="margin-bottom:6px"><b>Место:</b> ' . $h($CONFIG['event_place']) . '</div>'
+    . '<div style="margin-bottom:6px"><b>Метро:</b> ' . $h($CONFIG['event_metro']) . '</div>'
     . '<div><b>Формат:</b> очный digital-митап с нетворкингом</div>'
     . '</td></tr></table>'
     . '<p style="margin:0 0 8px"><b>В программе:</b></p>'
