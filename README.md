@@ -1,6 +1,6 @@
 # Лендинг «Точки роста: Digital Meetup»
 
-Статика: index.html, assets/ (style.css, main.js, логотипы SVG), privacy.html.
+Статика: index.html, assets/ (style.css, main.js, логотипы SVG), privacy.html и agreement.html (документы перенесены с digitali.ru/privacy и digitali.ru/agreement).
 Обработчик формы: send.php (PHP 7.4+, функция mail()).
 
 ## Запуск
@@ -14,6 +14,5 @@
 
 ## Что нужно заменить
 - Логотип Hybrid: сейчас текстовая заглушка .logo-hybrid (header и footer).
-- Текст политики конфиденциальности в privacy.html.
 - Для доставляемости писем: SPF/DKIM для домена отправителя или SMTP (PHPMailer).
 - Метрика: задать window.YM_ID и подключить счётчик — цель registration уже отправляется.
